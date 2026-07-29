@@ -18,8 +18,14 @@ sudo tar -xvf jetbrains-toolbox-3.6.2.85969.tar.gz -C /opt/jetbrains-toolbox-app
 sudo ln -s /opt/jetbrains-toolbox-app/bin/jetbrains-toolbox /usr/sbin/jetbrains-toolbox
 ```
 
-- after running JetBrains-Toolbox for the first time, check the `~/.local/share/JetBrains/`
+- in your terminal, run `jetbrains-toolbox` so that it creates the default folders. 
 - after verifying this folder, temporarily close JetBrains-Toolbox.
+
+```sh
+jetbrains-toolbox
+```
+
+- after running JetBrains-Toolbox for the first time, check the `~/.local/share/JetBrains/`
 
 ```sh
 ls -l ~/.local/share/JetBrains/
